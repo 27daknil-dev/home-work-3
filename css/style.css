@@ -1,0 +1,105 @@
+ body {
+    font-family: "Noto Serif", serif;
+    font-weight: 500;
+    font-style: normal;
+ }
+
+ body>header {
+    display: flex;
+    justify-content: center;
+    height: 240px;
+    background-image: url('../imajes/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15px;
+ }
+
+ h1 {
+    margin-top: 0;
+    margin-left: 100px;
+    font-size: 2rem;
+    color: rgba(133, 34, 34, 0.795);
+ }
+
+ .main-menu {
+    background: rgba(133, 34, 34, 0.795);
+    padding: 15px;
+    box-shadow: 0 0 20px rgba(19, 18, 18, 0.425);
+ }
+
+ .main-menu li {
+    display: inline-block;
+ }
+
+ .navigation {
+    text-align: center;
+ }
+
+ a {
+    text-decoration: none;
+    color: black;
+ }
+
+ a:hover {
+    color: rgba(133, 34, 34, 0.795);
+ }
+
+ .link-validator a {
+    text-decoration: underline;
+    color: rgba(133, 34, 34, 0.795);
+ }
+
+ li>a {
+    color: white;
+    padding: 15px;
+ }
+
+ li a:hover {
+    color: rgb(230, 149, 163);
+ }
+
+ .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 50px;
+ }
+
+ .text-conteiner {
+    width: 50%;
+ }
+
+ .registration label,
+ fieldset {
+    padding: 15px;
+    margin: 15px;
+ }
+
+ input {
+    margin: 5px;
+ }
+
+ .gender {
+    margin-left: 30px;
+ }
+
+ .form-button {
+    margin-left: 15px;
+    padding: 5px;
+ }
+
+ footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+ }
+
+ footer i {
+    color: rgb(230, 149, 163);
+ }
+
+ footer i:hover {
+    color: rgba(133, 34, 34, 0.795);
+ }
