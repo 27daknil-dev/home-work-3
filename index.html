@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bdb7cb08a4.js" crossorigin="anonymous"></script>
+    <title>Odessa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Ах, Одеса!</h1>
+    </header>
+
+    <main>
+        <header class="navigation">
+            <nav>
+                <ul class="main-menu">
+                    <li>
+                        <a href="#"><i class="fa-solid fa-house-chimney"></i></a>
+                    </li>
+                    <li>
+                        <a href="#">Про проект</a>
+                    </li>
+                    <li>
+                        <a href="#">Статті</a>
+                    </li>
+                    <li>
+                        <a href="#">Галерея</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакти</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container">
+            <form class="registration">
+                <h3>Реєстрація</h3>
+
+                <fieldset>
+                    <legend>Особиста інформація</legend>
+                    <div>
+                        <label for="first-name">Ваше ім'я
+                            <input type="text" id="first-name" name="first-name">
+                        </label>
+                    </div>
+
+                    <div>
+                        <label for="last-name">Ваше прізвище
+                            <input type="text" id="last-name" name="last-name">
+                        </label>
+                    </div>
+
+                    <input class="gender" type="radio" id="female" name="gender" value="female">Жінка
+                    <input class="gender" type="radio" id="male" name="gender" value="male">Чоловік
+
+                    <div>
+                        <label for="birth">Дата Вашого народження
+                            <input type="date" id="birth" name="birth">
+                        </label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Контактна інформація</legend>
+                    <div>
+                        <label for="phone-number">Ваш номер телефону
+                            <input type="number" id="phone-number" name="phone-number" placeholder="+38">
+                        </label>
+                    </div>
+
+                    <div>
+                        <label for="e-mail">Ваш e-mail
+                            <input type="email" id="e-mail" name="e-mail" placeholder="e-mail">
+                        </label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Адреса проживання</legend>
+                    <div>
+                        <label for="cities">Ваше місто проживання
+                            <select name="cities" id="cities">
+                                <option value="vinnitsa">Вінниця</option>
+                                <option value="dnepr">Дніпро</option>
+                                <option value="donetsk">Донецьк</option>
+                                <option value="zhytomyr">Житомир</option>
+                                <option value="uzhgorod">Ужгород</option>
+                                <option value="zaporozhye">Запоріжжя</option>
+                                <option value="ivano-frankivsk">Івано-Франківськ</option>
+                                <option value="kyiv">Київ</option>
+                                <option value="kropyvnytskyi">Кропивницький</option>
+                                <option value="lutsk">Луцьк</option>
+                                <option value="lviv">Львів</option>
+                                <option value="nikolaev">Миколаїв</option>
+                                <option value="odessa">Одеса</option>
+                                <option value="poltava">Полтава</option>
+                                <option value="rivne">Рівне</option>
+                                <option value="sumy">Суми</option>
+                                <option value="ternopil">Тернопіль</option>
+                                <option value="kharkov">Харків</option>
+                                <option value="kherson">Херсон</option>
+                                <option value="khmelnitsky">Хмельницький</option>
+                                <option value="cherkasy">Черкаси</option>
+                                <option value="chernihiv">Чернігів</option>
+                                <option value="chernivtsi">Чернівці</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <textarea name="adress" id="adress" rows="10"
+                        placeholder="Введіть Вашу адресу проживання"></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Виберіть теми,які Вас цікавлять.</legend>
+                    <input type="checkbox" id="attractions" name="interest" value="attractions">Визначні пам'ятки
+                    <input type="checkbox" id="legends" name="interest" value="legends">Легенди
+                    <input type="checkbox" id="interesting-facts" name="interest" value="interesting-facts">Цікаві
+                    факти
+                    <input type="checkbox" id="excursions" name="interest" value="excursions">Екскурсії
+                    <input type="checkbox" id="gastronomy" name="interest" value="gastronomy">Гастрономія
+                    <input type="checkbox" id="news" name="interest" value="news">Новини
+                    <input type="checkbox" id="humor" name="interest" value="humor">Гумор
+                    <input type="checkbox" id="souvenirs" name="interest" value="souvenirs">Сувеніри
+                </fieldset>
+
+                <button class="form-button" type="reset">Видалити</button>
+                <button class="form-button" type="submit">Відправити</button>
+            </form>
+        </div>
+    </main>
+
+    <hr>
+
+    <footer>
+        <div id="contacts">
+            <a href="https://www.gmail.com/mail" target="_blank">
+                <i class='icone' class="fa-solid fa-envelope"></i>
+            </a>
+
+            <a href="https://telegram.org" target="_blank">
+                <i class='icone' class="fa-brands fa-telegram"></i>
+            </a>
+
+            <a href="https://instagram.com" target="_blank">
+                <i class='icone' class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+
+        <p>
+            Одеса 2025
+        </p>
+    </footer>
+</body>
+
+</html>
